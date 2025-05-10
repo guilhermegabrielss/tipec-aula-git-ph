@@ -10,6 +10,9 @@ body {
   align-items: center;
 
   font-family: 'ShrekFont', sans-serif;
+
+  color: #f0fce5;
+  background-color: #78866B;
 }
 
 main {
@@ -19,8 +22,6 @@ main {
   justify-content: center;
   align-items: center;
   gap: 24px;
-
-  color: #030303;
 }
 
 main img {
@@ -35,10 +36,9 @@ main img {
 }
 
 footer {
-  color: #2d3822;
+  color: #f0fce5;
   border-radius: 12px;
   
   margin-top: 24px;
   padding-inline: 8px;
-
 }
