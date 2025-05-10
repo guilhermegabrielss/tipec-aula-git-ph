@@ -1,8 +1,15 @@
+@font-face {
+  font-family: 'ShrekFont';
+  src: url('./fonts/shrek.ttf') format('truetype');
+}
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  font-family: 'ShrekFont', sans-serif;
 }
 
 main {
@@ -28,8 +35,7 @@ main img {
 }
 
 footer {
-  color: #fff;
-  background-color: #78866B;
+  color: #2d3822;
   border-radius: 12px;
   
   margin-top: 24px;
