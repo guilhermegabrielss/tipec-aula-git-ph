@@ -1,8 +1,38 @@
 body {
-  background-image: url(assets/shrek-e-fiona.jpg);
-  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
-  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  color: #030303;
+}
+
+main img {
+  display: flex;
+  
+  width: 283px;
+  height: 283px;
+  
+  border-radius: 12px;
+
+  object-fit: cover;
+}
+
+footer {
+  color: #fff;
+  background-color: #78866B;
+  border-radius: 12px;
+  
+  margin-top: 24px;
+  padding-inline: 8px;
+
 }
